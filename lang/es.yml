@@ -1,0 +1,10 @@
+es:
+  SilverShop\Analytics\Report\MostViewedProductsReport:
+    TITLE: 'Productos más vistos'
+    DESC: 'Productos clasificados por páginas vistas registradas, durante un periodo.'
+    Start: 'Desde (fecha de vista)'
+    End: 'Hasta (fecha de vista)'
+    Deleted: '(producto eliminado n.º {id})'
+    ColTitle: 'Producto'
+    ColViews: 'Vistas'
+    ColViewers: 'Visitantes únicos'

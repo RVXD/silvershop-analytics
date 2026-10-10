@@ -1,0 +1,10 @@
+nl:
+  SilverShop\Analytics\Report\MostViewedProductsReport:
+    TITLE: 'Meest bekeken producten'
+    DESC: 'Producten gerangschikt op geregistreerde paginaweergaven, voor een periode.'
+    Start: 'Vanaf (weergavedatum)'
+    End: 'Tot (weergavedatum)'
+    Deleted: '(verwijderd product #{id})'
+    ColTitle: 'Product'
+    ColViews: 'Weergaven'
+    ColViewers: 'Unieke bezoekers'

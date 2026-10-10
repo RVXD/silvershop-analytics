@@ -1,0 +1,10 @@
+en:
+  SilverShop\Analytics\Report\MostViewedProductsReport:
+    TITLE: 'Most-viewed products'
+    DESC: 'Products ranked by recorded page views, for a period.'
+    Start: 'From (view date)'
+    End: 'To (view date)'
+    Deleted: '(deleted product #{id})'
+    ColTitle: 'Product'
+    ColViews: 'Views'
+    ColViewers: 'Unique viewers'

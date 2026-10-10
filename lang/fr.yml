@@ -1,0 +1,10 @@
+fr:
+  SilverShop\Analytics\Report\MostViewedProductsReport:
+    TITLE: 'Produits les plus consultés'
+    DESC: 'Produits classés par pages vues enregistrées, sur une période.'
+    Start: 'Du (date de consultation)'
+    End: 'Au (date de consultation)'
+    Deleted: '(produit supprimé #{id})'
+    ColTitle: 'Produit'
+    ColViews: 'Vues'
+    ColViewers: 'Visiteurs uniques'

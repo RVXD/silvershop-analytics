@@ -1,0 +1,10 @@
+de:
+  SilverShop\Analytics\Report\MostViewedProductsReport:
+    TITLE: 'Meistgesehene Produkte'
+    DESC: 'Produkte nach erfassten Seitenaufrufen, für einen Zeitraum.'
+    Start: 'Von (Aufrufdatum)'
+    End: 'Bis (Aufrufdatum)'
+    Deleted: '(gelöschtes Produkt #{id})'
+    ColTitle: 'Produkt'
+    ColViews: 'Aufrufe'
+    ColViewers: 'Eindeutige Besucher'

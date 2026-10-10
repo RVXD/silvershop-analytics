@@ -1,0 +1,8 @@
+---
+Name: silvershop-analytics
+After:
+  - '#silvershop'
+---
+SilverShop\Page\ProductController:
+  extensions:
+    - SilverShop\Analytics\Extension\ProductViewTrackingExtension
