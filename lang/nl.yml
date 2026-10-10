@@ -1,4 +1,19 @@
 nl:
+  SilverShop\Analytics\Report\SearchTermsReport:
+    TITLE: 'Populaire zoektermen'
+    DESC: 'Meest voorkomende zoekopdrachten in de winkel en hun gemiddelde aantal resultaten, voor een periode.'
+    Start: 'Vanaf (zoekdatum)'
+    End: 'Tot (zoekdatum)'
+    ColTerm: 'Zoekterm'
+    ColSearches: 'Zoekopdrachten'
+    ColAvgResults: 'Gem. resultaten'
+  SilverShop\Analytics\Report\ZeroResultSearchesReport:
+    TITLE: 'Zoekopdrachten zonder resultaat'
+    DESC: 'Zoekopdrachten die geen producten opleverden, voor een periode — wat klanten niet kunnen vinden.'
+    Start: 'Vanaf (zoekdatum)'
+    End: 'Tot (zoekdatum)'
+    ColTerm: 'Zoekterm'
+    ColSearches: 'Zoekopdrachten'
   SilverShop\Analytics\Report\MostViewedProductsReport:
     TITLE: 'Meest bekeken producten'
     DESC: 'Producten gerangschikt op geregistreerde paginaweergaven, voor een periode.'

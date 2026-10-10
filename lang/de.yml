@@ -1,4 +1,19 @@
 de:
+  SilverShop\Analytics\Report\SearchTermsReport:
+    TITLE: 'Top-Suchbegriffe'
+    DESC: 'Häufigste Suchanfragen im Shop und ihre durchschnittliche Trefferzahl, für einen Zeitraum.'
+    Start: 'Von (Suchdatum)'
+    End: 'Bis (Suchdatum)'
+    ColTerm: 'Suchbegriff'
+    ColSearches: 'Suchanfragen'
+    ColAvgResults: 'Ø Treffer'
+  SilverShop\Analytics\Report\ZeroResultSearchesReport:
+    TITLE: 'Suchen ohne Treffer'
+    DESC: 'Suchanfragen ohne Produkttreffer, für einen Zeitraum — was Kunden nicht finden.'
+    Start: 'Von (Suchdatum)'
+    End: 'Bis (Suchdatum)'
+    ColTerm: 'Suchbegriff'
+    ColSearches: 'Suchanfragen'
   SilverShop\Analytics\Report\MostViewedProductsReport:
     TITLE: 'Meistgesehene Produkte'
     DESC: 'Produkte nach erfassten Seitenaufrufen, für einen Zeitraum.'

@@ -65,11 +65,28 @@ Schedule the prune task daily (cron or `symbiote/silverstripe-queuedjobs`):
 vendor/bin/sake tasks:SilverShop-Analytics-Task-PruneProductViewsTask
 ```
 
+## Search-term tracking
+
+Exposes `SilverShop\Analytics\SearchInsights::record($term, $resultCount)` — a search module (e.g. `silvershop/search`)
+calls it on every query, which stores a normalised `SearchLog` row and powers two reports:
+
+- **Top search terms** — most frequent searches and their average result count.
+- **Zero-result searches** — queries that returned nothing (merchandising / SEO gold).
+
+Terms are lower-cased and whitespace-collapsed so variants aggregate. No PII is stored; the member link is off unless
+`SearchInsights.track_members` is enabled, and rows prune after `SearchLog.retention_days` (via `PruneSearchLogTask`).
+`silvershop/search` wires this automatically when both modules are installed.
+
+```yaml
+SilverShop\Analytics\SearchInsights:
+  enabled: true
+  track_members: false
+SilverShop\Analytics\Model\SearchLog:
+  retention_days: 365
+```
+
 ## Roadmap
 
-- **Search-term & zero-result reports** — this module will expose a `record($term, $resultCount)` API that a
-  search module (e.g. a future `silvershop/search`) calls. SilverShop core ships no search, so there is nothing to
-  record yet; the reports arrive with that integration.
 - **Daily rollups** — an optional aggregate table for very high-traffic catalogs that want short raw retention
   while keeping long report history.
 

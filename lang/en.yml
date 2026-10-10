@@ -1,4 +1,19 @@
 en:
+  SilverShop\Analytics\Report\SearchTermsReport:
+    TITLE: 'Top search terms'
+    DESC: 'Most frequent storefront searches and their average result count, for a period.'
+    Start: 'From (search date)'
+    End: 'To (search date)'
+    ColTerm: 'Search term'
+    ColSearches: 'Searches'
+    ColAvgResults: 'Avg results'
+  SilverShop\Analytics\Report\ZeroResultSearchesReport:
+    TITLE: 'Zero-result searches'
+    DESC: 'Searches that returned no products, for a period — what shoppers cannot find.'
+    Start: 'From (search date)'
+    End: 'To (search date)'
+    ColTerm: 'Search term'
+    ColSearches: 'Searches'
   SilverShop\Analytics\Report\MostViewedProductsReport:
     TITLE: 'Most-viewed products'
     DESC: 'Products ranked by recorded page views, for a period.'

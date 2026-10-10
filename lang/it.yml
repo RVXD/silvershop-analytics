@@ -1,4 +1,19 @@
 it:
+  SilverShop\Analytics\Report\SearchTermsReport:
+    TITLE: 'Termini di ricerca più frequenti'
+    DESC: 'Ricerche più frequenti nel negozio e il loro numero medio di risultati, in un periodo.'
+    Start: 'Dal (data di ricerca)'
+    End: 'Al (data di ricerca)'
+    ColTerm: 'Termine di ricerca'
+    ColSearches: 'Ricerche'
+    ColAvgResults: 'Risultati medi'
+  SilverShop\Analytics\Report\ZeroResultSearchesReport:
+    TITLE: 'Ricerche senza risultati'
+    DESC: 'Ricerche che non hanno restituito prodotti, in un periodo — ciò che i clienti non trovano.'
+    Start: 'Dal (data di ricerca)'
+    End: 'Al (data di ricerca)'
+    ColTerm: 'Termine di ricerca'
+    ColSearches: 'Ricerche'
   SilverShop\Analytics\Report\MostViewedProductsReport:
     TITLE: 'Prodotti più visti'
     DESC: 'Prodotti ordinati per visualizzazioni di pagina registrate, in un periodo.'
